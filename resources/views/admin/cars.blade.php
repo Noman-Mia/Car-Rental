@@ -50,7 +50,9 @@
                             <td class="w-4 p-4">
                                 <div class="p-0.5 rounded-md border-2 border-pr-400 ">
 
-                                    <img loading="lazy" src="{{  $car->image }}" alt="car image">
+                                <img src="{{ asset($car->image) }}" />
+
+
                                 </div>
 
                             </td>

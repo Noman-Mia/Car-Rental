@@ -14,7 +14,7 @@ use App\Http\Controllers\carSearchController;
 use App\Models\User;
 use App\Models\Car;
 use App\Models\Reservation;
-
+  
 
 // ------------------- guest routes --------------------------------------- //
 Route::get('/', function () {

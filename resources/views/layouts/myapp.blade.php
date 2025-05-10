@@ -38,7 +38,7 @@
                         <a href="{{ route('login') }}">
                             <button type="button"
                                 class=" px-4 lg:px-5 py-2 lg:py-2.5 mr-2 text-white bg-gradient-to-br from-pr-400 to-pr-300 hover:bg-gradient-to-bl font-medium rounded-lg text-sm ">
-                                login
+                                User login
                             </button>
 
                         </a>
@@ -47,7 +47,17 @@
                                 class="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-red-200 via-red-300 to-yellow-200 group-hover:from-red-200 group-hover:via-red-300 group-hover:to-yellow-200 dark:text-white dark:hover:text-gray-900 ">
                                 <span
                                     class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-sec-600 dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
-                                    Register
+                                   User Register
+                                </span>
+                            </button>
+
+                        </a>
+                        <a href="{{ route('admin.login') }}">
+                            <button
+                                class="relative inline-flex items-center justify-center p-0.5 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-red-200 via-red-300 to-yellow-200 group-hover:from-red-200 group-hover:via-red-300 group-hover:to-yellow-200 dark:text-white dark:hover:text-gray-900 ">
+                                <span
+                                    class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-sec-600 dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+                                   Admin Login
                                 </span>
                             </button>
 
