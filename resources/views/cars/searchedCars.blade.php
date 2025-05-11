@@ -14,11 +14,11 @@
                         class="block  rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-pr-400 sm:text-sm sm:leading-6">
                 </div>
                 <div>
-                    <button class="w-20 p-2 font-medium text-white rounded-md bg-pr-400 hover:bg-pr-500" type="submit">
+                    <button class="w-20 p-2 font-medium text-white rounded-md bg-green-500 hover:bg-pr-500" type="submit">
                         Search</button>
                     <a href={{ route('cars') }}>
 
-                        <button class="w-20 p-2 font-medium text-white rounded-md bg-pr-400 hover:bg-pr-500" type="button">
+                        <button class="w-20 p-2 font-medium text-white rounded-md bg-green-500 hover:bg-pr-500" type="button">
                             All
                         </button>
                     </a>
@@ -33,7 +33,7 @@
                 <a class="relative flex mx-3 mt-3 overflow-hidden h-60 rounded-xl" href="{{ route('car.reservation', ['car' => $car->id]) }}">
                     <img loading="lazy" class="object-cover" src="{{ $car->image }}" alt="product image" />
                     <span
-                        class="absolute top-0 left-0 px-2 m-2 text-sm font-medium text-center text-white rounded-full bg-pr-400">{{ $car->reduce }}
+                        class="absolute top-0 left-0 px-2 m-2 text-sm font-medium text-center text-white rounded-full bg-green-500">{{ $car->reduce }}
                         %
                         OFF</span>
                 </a>
@@ -64,7 +64,7 @@
                         </div>
                     </div>
                     <a href="{{ route('car.reservation', ['car' => $car->id]) }}"
-                        class="flex items-center justify-center rounded-md bg-slate-900 hover:bg-pr-400 px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-blue-300">
+                        class="flex items-center justify-center rounded-md bg-slate-900 hover:bg-green-500 px-5 py-2.5 text-center text-sm font-medium text-white focus:outline-none focus:ring-4 focus:ring-blue-300">
                         <svg id="thisicon" class="w-6 h-6 mr-4" xmlns="http://www.w3.org/2000/svg" height="1em"
                             viewBox="0 0 512 512">
                             <style>

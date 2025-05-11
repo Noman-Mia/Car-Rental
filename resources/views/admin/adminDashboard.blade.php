@@ -199,7 +199,7 @@
 
                                             <td class="px-4 py-3 w-36 text-sm flex flex-col justify-center">
 
-                                                <a class="p-2 mb-1 text-white bg-pr-500 hover:bg-pr-400 font-medium rounded text-center"
+                                                <a class="p-2 mb-1 text-white bg-pr-500 hover:bg-green-500 font-medium rounded text-center"
                                                     href="{{ route('editStatus', ['reservation' => $reservation->id]) }}">
                                                     <button>Edit Status </button>
                                                 </a>

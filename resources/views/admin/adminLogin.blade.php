@@ -43,7 +43,7 @@
             </div>
 
             <button type="submit"
-                class="w-full text-white bg-pr-400 hover:bg-pr-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">Login
+                class="w-full text-white bg-green-500 hover:bg-pr-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">Login
                 to admin dashboard</button>
 
         </form>

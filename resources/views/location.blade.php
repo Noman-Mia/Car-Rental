@@ -37,10 +37,8 @@
 
         </div>
         <div class=" p-3 mb-8">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.201201201201!2d75.7670466!3d31.2231589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391af4e8654ed27b%3A0x44f046dd6942ae0d!2sPhagwara%2C%20Punjab!5e0!3m2!1sen!2sin!4v1712054400000!5m2!1sen!2sin"
-                class="w-full h-96" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h1 class="text-3xl font-bold text-center">Location : Dhaka, Bangladesh</h1>
+            <
         </div>
 
     </div>

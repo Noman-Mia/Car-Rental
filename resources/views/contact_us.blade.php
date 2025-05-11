@@ -65,7 +65,7 @@
                         placeholder="Leave a comment..."></textarea>
                 </div>
                 <button type="submit"
-                    class="p-3 mb-16 font-bold border rounded-md border-pr-400 text-pr-400 hover:text-white hover:bg-pr-400">Send
+                    class="p-3 mb-16 font-bold border rounded-md border-green-400 text-green-400 hover:text-white hover:bg-green-500">Send
                     message</button>
             </form>
         </div>
@@ -121,7 +121,7 @@
                 <p class="text-sm font-light text-gray-700 font-car">Call us to speak to a member of our team. We are always
                     happy to help.
                 </p>
-                <p class="font-car text-pr-400 ">+91 9876543210</p>
+                <p class="font-car text-green-400 ">+91 9876543210</p>
             </div>
             <hr class="my-6  sm:mx-auto border-gray-700 lg:my-8 md:hidden" />
 

@@ -2,7 +2,7 @@
 @section('content')
     <div class="my-20 flex flex-col justify-center  items-center mx-auto max-w-screen-xl">
         <a href="{{ route('cars.create') }}">
-            <button class="mb-6 bg-pr-400 p-2 text-white drop-shadow-lg hover:bg-pr-600 hover:cursor-pointer rounded-md ">
+            <button class="mb-6 bg-green-500 p-2 text-white drop-shadow-lg hover:bg-green-500 hover:cursor-pointer rounded-md ">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="w-8 h-8 inline">
                     <path stroke-linecap="round" stroke-linejoin="round"

@@ -117,7 +117,7 @@
                             <div class="mt-8 text-center w-full px-2">
                                 @if($reservation->status != 'Canceled')
                                     <a href="{{ route('invoice', ['reservation' => $reservation->id]) }}" target="_blank">
-                                        <button class="bg-pr-400 p-3 text-white font-bold hover:bg-black w-full rounded-md mb-2">
+                                        <button class="bg-green-500 p-3 text-white font-bold hover:bg-black w-full rounded-md mb-2">
                                             Get Reservation Invoice</button>
                                     </a>
                                 @endif

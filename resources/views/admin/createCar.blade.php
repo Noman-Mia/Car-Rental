@@ -154,7 +154,7 @@
                     <a href="{{route('cars.index')}}"
                         class="w-20 p-1 text-sm font-semibold leading-6 text-center text-gray-900 border-2 rounded-md border-pr-200 hover:bg-white bg-sec-300">Cancel</a>
                     <button type="submit"
-                        class="w-1/3 px-3 py-2 text-sm font-semibold text-white rounded-md shadow-sm bg-pr-400 hover:bg-pr-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pr-400">Save</button>
+                        class="w-1/3 px-3 py-2 text-sm font-semibold text-white rounded-md shadow-sm bg-green-500 hover:bg-pr-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pr-400">Save</button>
                 </div>
 
             </div>
