@@ -117,7 +117,7 @@
                 <div class=" w-full   mt-8 ms-8">
                     <p id="total-price" class="font-car text-gray-600 text-lg ms-2">Estimated Price: <span
                             class="mx-2 font-car text-md font-medium text-gray-700 border border-pr-400 p-2 rounded-md "> --
-                            ₹</span>
+                            $</span>
                     </p>
                 </div>
                 <div id="mobile_submit_button" class="mt-12 w-full md:hidden  ">

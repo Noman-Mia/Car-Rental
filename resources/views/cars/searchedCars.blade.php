@@ -8,9 +8,9 @@
                         class="block  rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-pr-400 sm:text-sm sm:leading-6">
                     <input type="text" placeholder="model" name="model"
                         class="block  rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-pr-400 sm:text-sm sm:leading-6">
-                    <input type="number" placeholder="₹ minimum price " name="min_price"
+                    <input type="number" placeholder="$ minimum price " name="min_price"
                         class="block  rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-pr-400 sm:text-sm sm:leading-6">
-                    <input type="number" placeholder="₹ maximum price " name="max_price"
+                    <input type="number" placeholder="$ maximum price " name="max_price"
                         class="block  rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-pr-400 sm:text-sm sm:leading-6">
                 </div>
                 <div>
@@ -44,9 +44,9 @@
                     </div>
                     <div class="flex items-center justify-between mt-2 mb-5">
                         <p>
-                            <span class="text-3xl font-bold text-slate-900">₹{{ $car->price_per_day * 10 }}</span>
+                            <span class="text-3xl font-bold text-slate-900">${{ $car->price_per_day * 10 }}</span>
                             <span
-                                class="text-sm line-through text-slate-900">₹{{ intval(($car->price_per_day * 10 * 100) / (100 - $car->reduce)) }}
+                                class="text-sm line-through text-slate-900">${{ intval(($car->price_per_day * 10 * 100) / (100 - $car->reduce)) }}
                             </span>
                         </p>
 

@@ -65,7 +65,7 @@
                                 </div>
                                 <div class="flex gap-2 items-center">
                                     <p class="text-lg font-medium">Price: </p>
-                                    <p class="text-pr-600 font-semibold text-lg">₹{{ $reservation->total_price * 10 }}</p>
+                                    <p class="text-pr-600 font-semibold text-lg">${{ $reservation->total_price * 10 }}</p>
                                 </div>
 
 
