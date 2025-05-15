@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div class="md:w-3/5 hidden md:block ">
-                    {{-- <img loading="lazy" src="/images/home car.png" alt="home car"> --}}
+                   
                     <img class="rounded-3xl" loading="lazy" src="/images/about-img-1.jpg" alt="home car">
                 </div>
 
