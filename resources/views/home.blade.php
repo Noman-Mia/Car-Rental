@@ -28,8 +28,8 @@
                     </div>
                 </div>
                 <div class="md:w-3/5 hidden md:block ">
+                    <img class="w-full h-5/6" loading="lazy" src="/images/orange car 1.png" alt="">
                    
-                    <img class="rounded-3xl" loading="lazy" src="/images/about-img-1.jpg" alt="home car">
                 </div>
 
             </div>
