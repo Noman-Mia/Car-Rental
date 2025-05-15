@@ -15,7 +15,7 @@
                     </div>
                     <p class="text-justify md:mx-0 mx-8 ">Whether you're planning a weekend
                         getaway or a cross-country adventure, we've got you covered. With our wide selection of vehicles and
-                        convenient booking system, renting a car has never been this effortless.</p>
+                        convenient booking system, renting a car has never been effortless.</p>
                     <div class="flex justify-center md:justify-start mt-12 md:w-2/3 me-12 md:-ms-12">
                         <a href="/cars">
                             <button
