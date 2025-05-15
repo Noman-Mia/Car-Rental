@@ -99,7 +99,7 @@
                             <li>
                                 <a href="{{ route('cars') }}">
                                     <div class="group text-center">
-                                        <div class="group-hover:cursor-pointer">Cars</div>
+                                        <div class="group-hover:cursor-pointer">Rentals</div>
                                         <div
                                             class="block invisible bg-green-500 w-8 h-1 rounded-md text-center -bottom-1 mx-auto relative group-hover:visible">
                                         </div>
@@ -108,7 +108,7 @@
                             <li>
                                 <a href="/location">
                                     <div class="group text-center">
-                                        <div class="group-hover:cursor-pointer">Location</div>
+                                        <div class="group-hover:cursor-pointer">About</div>
                                         <div
                                             class="block invisible bg-green-500 w-16 h-1 rounded-md text-center -bottom-1 mx-auto relative group-hover:visible">
                                         </div>
@@ -117,7 +117,7 @@
                             <li>
                                 <a href="/contact_us">
                                     <div class="group text-center">
-                                        <div class="group-hover:cursor-pointer">Contact Us</div>
+                                        <div class="group-hover:cursor-pointer">Contact</div>
                                         <div
                                             class="block invisible bg-green-500 w-20 h-1 rounded-md text-center -bottom-1 mx-auto relative group-hover:visible">
                                         </div>
@@ -231,7 +231,7 @@
                                 <li>
                                     <a href="{{ route('cars') }}">
                                         <div class="group text-center">
-                                            <div class="group-hover:cursor-pointer">Cars</div>
+                                            <div class="group-hover:cursor-pointer">Rentals</div>
                                             <div
                                                 class="block invisible bg-green-500 w-8 h-1 rounded-md text-center -bottom-1 mx-auto relative group-hover:visible">
                                             </div>
@@ -241,7 +241,7 @@
                                 <li>
                                     <a href="/location">
                                         <div class="group text-center">
-                                            <div class="group-hover:cursor-pointer">Location</div>
+                                            <div class="group-hover:cursor-pointer">About</div>
                                             <div
                                                 class="block invisible bg-green-500 w-16 h-1 rounded-md text-center -bottom-1 mx-auto relative group-hover:visible">
                                             </div>
@@ -250,7 +250,7 @@
                                 <li>
                                     <a href="/contact_us">
                                         <div class="group text-center">
-                                            <div class="group-hover:cursor-pointer">Contact Us</div>
+                                            <div class="group-hover:cursor-pointer">Contact</div>
                                             <div
                                                 class="block invisible bg-green-500 w-20 h-1 rounded-md text-center -bottom-1 mx-auto relative group-hover:visible">
                                             </div>
