@@ -9,17 +9,7 @@
                     {{ $car->engine }}
                 </h2>
 
-                <div class=" flex items-end mt-8 ms-4">
-                    <h3 class="font-car text-gray-500 text-2xl">Price:</h3>
-                    <p>
-                        <span
-                            class=" text-3xl font-bold text-pr-400 ms-3 me-1 border border-pr-400 p-2 rounded-md">&#8377;{{ $car->price_per_day }}
-                        </span>
-                        <span
-                            class="text-lg font-medium text-red-500 line-through">&#8377;{{ intval(($car->price_per_day * 100) / (100 - $car->reduce)) }}
-                        </span>
-                    </p>
-                </div>
+            
 
                 <div class=" flex items-center justify-around mt-10 me-10">
                     <div class="w-1/5 md:w-1/3 h-[0.25px] bg-gray-500 "> </div>
