@@ -49,7 +49,6 @@ function () {
 })->name('terms_conditions');
 
 
-// -------------------------------------------------------------------------//
 
 
 
@@ -65,7 +64,6 @@ Route::prefix('admin')->middleware('admin')->group(function () {
 
     Route::resource('cars', CarController::class);
 
-    // Route::resource('reservations', ReservationController::class);
     Route::get('/users', function () {
 
         $admins = User::where('role', 'admin')->get();
@@ -83,13 +81,9 @@ Route::prefix('admin')->middleware('admin')->group(function () {
     Route::get('/addAdmin', [usersController::class, 'create'])->name('addAdmin');
     Route::post('/addAdmin', [addNewAdminController::class, 'register'])->name('addNewAdmin');
 
-    // Route::delete('/deleteUser/{user}', [usersController::class, 'destroy'])->name('deleteUser');
 
     Route::get('/userDetails/{user}', [usersController::class, 'show'])->name('userDetails');
 });
-
-// --------------------------------------------------------------------------//
-
 
 
 

@@ -8,9 +8,8 @@
             {{-- hero --}}
             <div class="flex justify-center md:py-28 py-12 mx-auto max-w-screen-xl gap-x-3">
                 <div class="flex  flex-col justify-center md:w-3/5  mx-12 md:ms-20 md:mx-0">
-                    <h1 class=" md:text-start text-center  font-car font-bold text-gray-900 mb-8  md:text-7xl text-4xl "><span class="text-green-500"> EASY FAST WAY 
-                        </span>AND
-                        TO RENT YOUR CAR</h1>
+                    <h1 class=" md:text-start text-center  font-car font-bold text-gray-900 mb-8  md:text-7xl text-4xl "><span class="text-green-500"> Car rental 
+                        </span>provides vehicles for short-term use.</h1>
                     <div class="md:w-3/5 md:hidden  ">
                         <img loading="lazy" src="/images/home car.png" alt="home car">
                     </div>

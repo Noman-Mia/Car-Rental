@@ -85,7 +85,7 @@
                 </div>
                 <h2 class="text-lg font-bold text-gray-800 font-car">Company information:</h2>
                 <p class="text-sm font-light text-gray-700 font-car">CarRental LLC</p>
-                <p class="text-sm font-light text-gray-700 font-car">Location: Punjab</p>
+                <p class="text-sm font-light text-gray-700 font-car">Location: Dhaka, Bangladesh</p>
             </div>
             <div>
                 <div class="w-20 p-6 mx-auto mb-3 bg-gray-200 rounded-md ">
@@ -101,8 +101,8 @@
                     </svg>
                 </div>
                 <h2 class="text-lg font-bold text-gray-800 font-car">Address:</h2>
-                <p class="text-sm font-light text-gray-700 font-car">Phagwara</p>
-                <p class="text-sm font-light text-gray-700 font-car">Zip Code/Postal code:144411</p>
+                <p class="text-sm font-light text-gray-700 font-car">Dhaka</p>
+               
             </div>
             <div>
                 <div class="w-20 p-6 mx-auto mb-3 bg-gray-200 rounded-md ">
@@ -121,7 +121,7 @@
                 <p class="text-sm font-light text-gray-700 font-car">Call us to speak to a member of our team. We are always
                     happy to help.
                 </p>
-                <p class="font-car text-green-400 ">+91 9876543210</p>
+                <p class="font-car text-green-400 ">+8801999459220</p>
             </div>
             <hr class="my-6  sm:mx-auto border-gray-700 lg:my-8 md:hidden" />
 
